@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  commenter: Pris
+  body: Saludos Vaquero
+  article:  emoji de vaquerito
+
+two:
+  commenter: Julio
+  body: Hello
+  article: There
