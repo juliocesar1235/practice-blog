@@ -8,7 +8,11 @@
   <%= @article.text %>
 </p>
 
-<h2>Add a comment:</h2>
+<h3>Comments</h2>
+<%= render @article.comments %>
+
+
+<h3>Add a comment:</h2>
 
 <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
   <p>
